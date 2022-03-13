@@ -1,0 +1,44 @@
+body{
+  background-color: #D3DEDC;
+}
+
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 3%;
+}
+
+h3{
+  color: #676FA3;
+  font-family: "Lucida Console", Courier, monospace;
+  font-style: oblique;
+}
+h1{
+  color: #676FA3;
+  font-family: "Lucida Console", Courier, monospace;
+  font-style: normal;
+}
+h2{
+  color:#676FA3;
+  font-family: "Lucida Console", Courier, monospace;
+  font-style: normal;
+}
+
+.food{
+  color: #0061A8;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.hobbies{
+  color: #0061A8;
+  font-style: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.details{
+  color:#726A95;
+  font-size: 20px;
+}
