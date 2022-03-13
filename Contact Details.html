@@ -4,30 +4,38 @@
 <head>
   <meta charset="utf-8">
   <title>Contact Details</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+  <h1>Contact Details</h1>
   <ol>
-    <li>Email: arijitsinha118@gmail.com</li>
-    <li>Mobile Number: 8777***607</li>
-    <li>Alternate Number: 964****746</li>
+    <li class="details">Email: arijitsinha118@gmail.com</li>
+    <li class="details">Mobile Number: 8777***607</li>
+    <li class="details">Alternate Number: 964****746</li>
   </ol>
-  <h4>Better conatct between 9AM to 8PM IST</h4>
-  <hr size="4" color="orange" noshade>
+  <h3>Better conatct between 9AM to 8PM IST</h3>
+  <hr>
   <form action="mailto:arijitsinha118@gmail.com?subject=TestCV" method="post" enctype="text/plain">
-    <label for="date">DateTime:</label>
-    <input type="datetime-local" name="Date" id=date><br />
-    <br>
-    <label for="name">Name:</label>
-    <input type="text" name="Name" id="name" cellspacing="10"><br />
-    <br>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="Email" cellspacing="10"><br />
-    <br>
-    <label for="message">Message:</label>
-    <textarea name="Message" id=message rows="10" cols="20" cellspacing="10"></textarea><br />
-    <br>
-    <input type="submit">
+    <table>
+      <tr>
+        <td><label class="details" for="date">DateTime:</label></td>
+        <td><input type="datetime-local" name="Date" id=date></td>
+      </tr>
+      <tr>
+        <td><label class="details" for="name">Name:</label></td>
+        <td><input type="text" name="Name" id="name" cellspacing="10"></td>
+      </tr>
+      <tr>
+        <td><label class="details" for="email">Email:</label></td>
+        <td><input type="email" id="email" name="Email" cellspacing="10"><br /></td>
+      </tr>
+      <tr>
+        <td><label class="details" for="message">Message:</label></td>
+        <td><textarea name="Message" id=message rows="10" cols="20" cellspacing="10"></textarea></td>
+      </tr>
+      <td><input class="details" type="submit"></td>
+    </table>
   </form>
 </body>
 
